@@ -52,7 +52,6 @@ func processFile(path string, info os.FileInfo, err error) error {
 }
 
 func main() {
-	//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
 	apiKeyF := flag.String("apikey", "", "API key for processing (required)")
 	root := flag.String("path", ".", "Starting path for directory traversal")
 
